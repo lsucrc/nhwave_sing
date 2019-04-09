@@ -35,8 +35,6 @@ COPY nhwave.sh /usr/local/bin/nhwave.sh
 RUN chmod 755 /usr/local/bin/nhwave.sh
 #RUN nhwave.sh
 
-ENV PATH $PATH:/model/NHWAVE/src
-RUN chmod +rx /model/NHWAVE/src/nhwave
 
 #ENV SWAN_V1 41
 #ENV SWAN_V2 20
